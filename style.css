@@ -291,7 +291,7 @@ banner
 */
 #banner{
   min-height: 90vh;
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/banner-img.jpeg);
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('https://cdn.pixabay.com/photo/2019/01/30/07/45/web-3963945_960_720.jpg');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -474,7 +474,7 @@ services
   transform: translateY(-200px);
 }
 .service-item:hover .back-text{
-  bottom: 30px;
+  bottom: 70px;
 }
 @media screen and (min-width: 776px){
   .services-container{
